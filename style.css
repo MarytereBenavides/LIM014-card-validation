@@ -1,0 +1,226 @@
+*{
+    margin: 0 auto;
+   
+}
+header{         
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header-trustpay{
+    background: linear-gradient(#ff7d8e, #ffffff );;
+    padding: 20px;
+   
+
+}
+#trustpay{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.911);
+
+
+}
+.em-two_hearts{
+    margin-bottom: 1.5rem;
+}
+.em-flag-pe{
+    position: absolute;
+    top: 33px;
+    right: 20px;
+
+}
+.lima{
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+
+
+.frase{
+    background: rgb(159, 44, 53,1);
+    border-style:outset;
+    border-color: #db879d ;
+    border-left: 0px;
+    border-right: 0px;
+    border-top-width: 2px;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-style: oblique;
+    padding: 3px;
+}
+
+body{
+    font-family: 'Questrial', sans-serif;
+
+  
+}
+
+#container{
+    text-align: center;
+    
+}
+
+
+
+#validacion{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 20% auto 20%;
+}
+
+#info{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: stretch;
+}
+
+#info h1{
+    font-size: 47px;
+    color: #5c0e19;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    letter-spacing: 1.5px;
+
+}
+
+#cardImage {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+input {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 750px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 106, 106);
+    font-size: 25px;
+    text-align: center;
+}
+
+#textoAlert{
+    color: red;
+    margin-bottom: 20px;
+}
+
+#btnValidar{
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    color:#ffffff;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    margin: 0 auto;
+    background:#5c0e19;
+    border-color:#db879d ;
+    border-radius: 4px;
+    
+}
+
+#btnRegresar{
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color:#ffffff;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    background:#5c0e19;
+    border-color:#db879d ;
+    border-radius: 4px;
+}
+
+
+
+
+#btnValidar:hover{
+    background:#f0136fe8;
+    color: blanchedalmond;
+}
+
+#btnRegresar:hover{
+    background: #f0136fe8;
+    color: blanchedalmond;
+}
+.ocultar{
+    display: none;
+}
+
+.mostrar {
+    display: grid;
+}
+
+#container2{
+    margin: auto;
+    text-align: center;
+}
+
+#container2 #emoticon{
+    width: 300px;
+    margin-bottom: 55px;
+    border-radius: 8px;
+}
+
+#validacion2{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 20% auto 20%;
+}
+
+#info2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: stretch;
+    margin-bottom: 50px;
+}
+
+#mensaje{
+    font-size: 48px;
+    color:#5c0e19;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+
+#numeroOculto{
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+footer{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: #5c0e19 ;  
+    padding-top: 40px;   
+    border-top: outset #ff7d8e 1px ;
+    margin-top: 50px;
+}
+.icons-media{
+    font-size:40px;
+    color:rgb(250, 250, 250);
+    padding-bottom: 20px;
+}
