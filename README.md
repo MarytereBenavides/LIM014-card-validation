@@ -1,20 +1,32 @@
-# Tarjeta de crédito válida
-------------------------------
-Debe contener lo siguiente:
+# Trust Pay - Validación de tarjeta 
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
+El proyecto se basa en crear un sitio web que verifique la validez de una tarjeta aplicando el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), y oculte todos los dígitos de la tarjeta menos los últimos cuatro.
+
+##Imagen final del proyecto.
+
+![](https://raw.githubusercontent.com/MarytereBenavides/LIM014-card-validation/master/src/img/trustPay1.PNG)
+
+![](https://raw.githubusercontent.com/MarytereBenavides/LIM014-card-validation/master/src/img/trustPay2.PNG)
+
+![](https://raw.githubusercontent.com/MarytereBenavides/LIM014-card-validation/master/src/img/trustPay3.PNG)
 
 
+## Investigación UX:
+
+TrustPay es un sitio web de venta de ropa femenina. La política de la compañía es que sus clientes efectúen el pago después de verificar la calidad de la prenda. 
+
+* El usuario son los vendedores del sitio Web que no quieren incurrir en gastos por delivery por compras en vano. Así que antes de realizar el envío piden la verificación de la tarjeta de la cual se debitará el monto.
+
+####Primer prototipo
+
+![](https://raw.githubusercontent.com/MarytereBenavides/LIM014-card-validation/master/src/img/prototipo.jpg)
+
+####Feedback
+
+* Centrarme en cumplir con los objetivos del proyecto.
+* Aplicar border-radius a los gifs.
+* Agrandar el tamaño de letra .
+* Cambiar el color de los botones. 
 
 ## Índice
 
