@@ -2,7 +2,7 @@
 
 El proyecto se basa en crear un sitio web que verifique la validez de una tarjeta aplicando el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), y oculte todos los dígitos de la tarjeta menos los últimos cuatro.
 
-##Imagen final del proyecto.
+## Imagen final del proyecto.
 
 ![](https://raw.githubusercontent.com/MarytereBenavides/LIM014-card-validation/master/src/img/trustPay1.PNG)
 
