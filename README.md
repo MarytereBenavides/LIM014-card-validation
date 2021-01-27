@@ -17,11 +17,11 @@ TrustPay es un sitio web de venta de ropa femenina. La política de la compañí
 
 * El usuario son los vendedores del sitio Web que no quieren incurrir en gastos por delivery por compras en vano. Así que antes de realizar el envío piden la verificación de la tarjeta de la cual se debitará el monto.
 
-###Primer prototipo
+#### Primer prototipo
 
 ![](https://raw.githubusercontent.com/MarytereBenavides/LIM014-card-validation/master/src/img/prototipo.jpg)
 
-###Feedback
+#### Feedback
 
 * Centrarme en cumplir con los objetivos del proyecto.
 * Aplicar border-radius a los gifs.
