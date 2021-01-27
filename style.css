@@ -11,12 +11,12 @@ header{
 
 .header-trustpay{
     background: linear-gradient(#ff7d8e, #ffffff );;
-    padding: 20px;
+    padding: 30px;
    
 
 }
 #trustpay{
-    font-size: 30px;
+    font-size: 40px;
     color: rgba(0, 0, 0, 0.911);
 
 
@@ -34,6 +34,7 @@ header{
     position: absolute;
     top: 35px;
     right: 50px;
+    font-size: 20px;
 }
 
 
@@ -47,7 +48,7 @@ header{
     color: rgb(255, 255, 255);
     margin: 0 auto;
     text-align: center;
-    font-size: 16px;
+    font-size: 25px;
     font-style: oblique;
     padding: 3px;
 }
@@ -123,7 +124,7 @@ input {
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 18px;
+    font-size: 25px;
     margin: 0 auto;
     background:#5c0e19;
     border-color:#db879d ;
@@ -137,14 +138,14 @@ input {
     cursor: pointer;
     font-size: 32px;
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     color:#ffffff;
     font-weight: bold;
     font-style: oblique;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 18px;
+    font-size: 25px;
     background:#5c0e19;
     border-color:#db879d ;
     border-radius: 4px;
@@ -171,7 +172,8 @@ input {
 }
 
 #container2{
-    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
     text-align: center;
 }
 
