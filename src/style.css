@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+   
 }
 header{         
     position: fixed;
@@ -54,20 +54,15 @@ header{
 
 body{
     font-family: 'Questrial', sans-serif;
-    margin-top: 100px;
+
+  
 }
 
 #container{
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    margin: center;
     text-align: center;
     
 }
-#container #validacion input{
-    width: 100%;
-}
+
 
 
 #validacion{
@@ -78,6 +73,8 @@ body{
 }
 
 #info{
+    margin-top: 50px;
+    margin-bottom: 150px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -86,27 +83,28 @@ body{
 }
 
 #info h1{
-    font-size: 48px;
+    font-size: 47px;
     color: #5c0e19;
-    font-weight: lighter;
-    padding-bottom: 90px;
+    font-weight: bolder;
+    padding-bottom: 30px;
     letter-spacing: 1.5px;
 
 }
 
-#info h2{
-    font-size: 26px;
+#cardImage {
+    margin: 0 auto;
     padding-bottom: 30px;
 }
 
-input{
+input {
+    display: flex;
     margin: 0 auto;
-    width: 500px;
-    height: 54px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    width: 750px;
+    height: 50px;
     border-radius: 5px;
-    border: 1px solid black;
-    font-size: 32px;
+    border: 1px solid rgb(114, 106, 106);
+    font-size: 25px;
     text-align: center;
 }
 
@@ -119,15 +117,15 @@ input{
     width: 250px;
     height: 50px;
     cursor: pointer;
-    color:#5c0e19;
+    color:#ffffff;
     font-weight: bold;
     font-style: oblique;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
     font-size: 18px;
-    margin-top: 25px;
-    background: #ffffff;
+    margin: 0 auto;
+    background:#5c0e19;
     border-color:#db879d ;
     border-radius: 4px;
     
@@ -136,20 +134,18 @@ input{
 #btnRegresar{
     width: 250px;
     height: 50px;
-    
     cursor: pointer;
     font-size: 32px;
-    
-    margin-top: 25px;
-    color:#5c0e19;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color:#ffffff;
     font-weight: bold;
     font-style: oblique;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
     font-size: 18px;
-    
-    background: #ffffff;
+    background:#5c0e19;
     border-color:#db879d ;
     border-radius: 4px;
 }
@@ -158,12 +154,12 @@ input{
 
 
 #btnValidar:hover{
-    background: #5c0e19;
+    background:#f0136fe8;
     color: blanchedalmond;
 }
 
 #btnRegresar:hover{
-    background: #5c0e19;
+    background: #f0136fe8;
     color: blanchedalmond;
 }
 .ocultar{
@@ -175,16 +171,12 @@ input{
 }
 
 #container2{
-    width: 100%;
-    height: 100vh;
     margin: auto;
-    margin-bottom: 150px;
     text-align: center;
 }
 
 #container2 #emoticon{
     width: 300px;
-
     margin-bottom: 55px;
     border-radius: 8px;
 }
@@ -225,6 +217,7 @@ footer{
     background: #5c0e19 ;  
     padding-top: 40px;   
     border-top: outset #ff7d8e 1px ;
+    margin-top: 50px;
 }
 .icons-media{
     font-size:40px;

@@ -1,4 +1,20 @@
 # Tarjeta de crédito válida
+------------------------------
+Debe contener lo siguiente:
+
+* Un título con el nombre de tu proyecto.
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* La imagen final de tu proyecto.
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios.
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. Imagen del prototipo final.
+
+
 
 ## Índice
 
@@ -315,3 +331,11 @@ Organización del Trabajo:
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+
+# FAQ (preguntas frecuentes)
+
+- [Por qué usar html semántico](https://youtu.be/vRqQRrULSxI)
+- [Diferencia entre datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+- [Para qué sirve el ESLint](https://antoniomasia.com/que-es-eslint-y-por-que-deberias-usarlo/)
+- [Para qué sirven las pruebas unitarias](http://oscarmoreno.com/pruebas-unitarias/)
+- Tengo que testear toda mi función

@@ -7,8 +7,6 @@ const ContenedorDos = document.getElementById('container2');
 let mensaje;
 const btnValidar = document.getElementById('btnValidar');
 const btnRegresar = document.getElementById('btnRegresar');
-const btnSeguirCompra = document.getElementById('btnSeguirCompra');
-
 
 
 btnValidar.addEventListener('click',(validacion)=>{
