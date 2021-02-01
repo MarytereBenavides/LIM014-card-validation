@@ -30,7 +30,7 @@
           <div id="info">
             <h1>Valida tu tarjeta para continuar con tu compra </h1>
             <img id="cardImage" src="img/card.jpg" alt="cardImage">
-            <input type="text" id="numero" maxlength="16" placeholder="Número de tarjeta">
+            <input type="text" id="numero"  maxlength="16" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" placeholder="Número de tarjeta">
           
             <p id="textoAlert" class="ocultar"></p>
             <button id="btnValidar">Continuar</button>
