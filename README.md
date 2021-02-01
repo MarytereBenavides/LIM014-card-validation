@@ -15,7 +15,12 @@ El proyecto se basa en crear un sitio web que verifique la validez de una tarjet
 
 TrustPay es un sitio web de venta de ropa femenina. La política de la compañía es que sus clientes efectúen el pago después de verificar la calidad de la prenda. 
 
-* El usuario son los vendedores del sitio Web que no quieren incurrir en gastos por delivery por compras en vano. Así que antes de realizar el envío piden la verificación de la tarjeta de la cual se debitará el monto.
++ El usuario son los vendedores del sitio Web que no quieren incurrir en gastos por delivery por compras en vano. Así que antes de realizar el envío piden la verificación de la tarjeta de la cual se debitará el monto.
+
+    * **YO COMO**  usuario de venta de prendas en un sitio de web de ropa femenina.
+    * **QUIERO** poder validar la tarjeta del comprador 
+    * **PARA** verificar la autenticidad de esta y no realizar envíos en vano.
+
 
 ### Primer prototipo
 
