@@ -18,8 +18,8 @@ btnValidar.addEventListener('click',(validacion)=>{
     let resultadoFinal = validator.isValid(numeroTarjeta);
 
     const textoAlert = document.getElementById('textoAlert');
-    //responder al ingreso vacío
-    if(numeroTarjeta === ''){
+    //responder al ingreso vacío y solo usar caracteres numericos
+    if(numeroTarjeta === '' || (isNaN(numeroTarjeta) === true)){
         validacion.preventDefault();
         textoAlert.classList.remove('ocultar');
         textoAlert.innerHTML = 'Necesitas llenar este campo';
