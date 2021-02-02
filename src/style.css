@@ -10,7 +10,7 @@ header{
 }
 
 .header-trustpay{
-    background: linear-gradient(#ff7d8e, #ffffff );;
+    background: linear-gradient(#ff7d8e, #ffffff );
     padding: 30px;
    
 
@@ -153,7 +153,9 @@ input {
 
 
 
-
+/* 
+La pseudo-clase :hover permite especificar el aspecto del elemento sobre el que se encuentra el ratón.
+ */
 #btnValidar:hover{
     background:#f0136fe8;
     color: blanchedalmond;
